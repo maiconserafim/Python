@@ -44,7 +44,13 @@ while (nota>10) or (nota<0):
 nota=float(input("informe um numero de 0 a 10: "))
 
     exercicio 9
-for i in range(1,51,2):
+for i in range(1,51,2)
     print (i)
+
+    Exercicio 9
+n= -1
+while n < 49:
+    n += 2
+    print(n)
 
 
