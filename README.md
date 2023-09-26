@@ -4,8 +4,6 @@ exercicio 3
 
 letra = input("Digite uma letra (F ou M): ")
 
-letra = letra.upper()
-
 if letra == "F":
     print("Feminino")
 elif letra == "M":
