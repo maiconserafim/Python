@@ -41,7 +41,10 @@ print(f"O menor número é: {menor}")
     exercicio  1
 nota=float(input("informe um numero de 0 a 10: "))
 while (nota>10) or (nota<0):
-nota=float(input("informe um numero de 0 a 10: "))
+    print('numero invalido!')
+    break
+else:
+    print('numero valido')
 
     exercicio 9
 for i in range(1,51,2)
