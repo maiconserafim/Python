@@ -47,7 +47,7 @@ else:
     print('numero valido')
 
     exercicio 9
-for i in range(1,51,2)
+for i in range(1,51,2):
     print (i)
 
     Exercicio 9
