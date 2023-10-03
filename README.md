@@ -26,17 +26,27 @@ else:
     print("Reprovado")
 
     Exercicio 7
-num1 = float(input("Digite o primeiro número: "))
-num2 = float(input("Digite o segundo número: "))
-num3 = float(input("Digite o terceiro número: "))
+num1 = float(input("Digite o primeiro numero: "))
+num2 = float(input("Digite o segundo numero: "))
+num3 = float(input("Digite o terceiro numero"))
 
-menor = min(num1, num2, num3)
+maior = num1
+menor = num1
 
-numeros_ordenados = sorted([num1, num2, num3])
-meio = numeros_ordenados[1]
+if num2 > num1:
+    maior = num2
 
-print(f"O número do meio é: {meio}")
-print(f"O menor número é: {menor}")
+if num2 < menor:
+    menor = num2
+
+if num3 > maior:
+    maior = num3
+
+if num3 < menor:
+    menor = num3
+
+print ("O maior numero é:", maior)
+print ("O menor numero é:", menor)
 
     exercicio  1
 nota=float(input("informe um numero de 0 a 10: "))
